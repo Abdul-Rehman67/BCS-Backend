@@ -22,7 +22,7 @@ Each book contains the following fields:
 - **Publication Year**
 - **Genre**
 - **Brief Description**
-- **Read Status** (optional): "To Read", "Reading", or "Completed"
+- **Read Status**: "To Read", "Reading", or "Completed"
 
 ## Setup Instructions
 
