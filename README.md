@@ -68,7 +68,6 @@ The API provides clear error messages for invalid requests and inputs, such as m
 - **Node.js** - JavaScript runtime
 - **Express** - Web framework for Node.js
 - **MongoDB** or **PostgreSQL** - Database for storing book data
-- **Multer** - Middleware for handling file uploads
 - **JWT** - JSON Web Tokens for user authentication (optional)
 
 ## License
