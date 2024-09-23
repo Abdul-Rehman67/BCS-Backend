@@ -9,7 +9,7 @@ const app = express()
 const port = process.env.PORT
 
 const corsOptions = {
-  origin: '*', // You can replace '*' with specific domains like ['http://localhost:3000', 'https://your-frontend-domain.com']
+  origin: 'https://bcs-backend-qulo-nwegr5exe-abdulrehman67s-projects.vercel.app', // You can replace '*' with specific domains like ['http://localhost:3000', 'https://your-frontend-domain.com']
   methods: 'GET,POST,PUT,DELETE', // Allowed methods
   allowedHeaders: 'Content-Type,Authorization', // Allowed headers
 };
