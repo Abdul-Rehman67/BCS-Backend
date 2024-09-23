@@ -14,7 +14,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('Hello From LMS')
+  res.send('Hello From BCS')
 })
 // 
 
