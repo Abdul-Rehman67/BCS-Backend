@@ -1,6 +1,6 @@
 # Personal Book Collection - Backend
 
-This is the backend of a full-stack application for managing a personal book collection, built using Express and Node.js. The backend provides a RESTful API to handle book data, supporting operations like retrieving, adding, deleting, and importing books from CSV files. It uses MongoDB or PostgreSQL for data storage.
+This is the backend of a full-stack application for managing a personal book collection, built using Express and Node.js. The backend provides a RESTful API to handle book data, supporting operations like retrieving, adding, deleting, and importing books from CSV files. It uses MongoDB  for data storage.
 
 ## Features
 
