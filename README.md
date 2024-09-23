@@ -8,7 +8,7 @@ This is the backend of a full-stack application for managing a personal book col
   - GET `/api/books`: Retrieve all books
   - GET `/api/books/:id`: Retrieve a specific book
   - POST `/api/books`: Add a new book or by CSV
-  - DELETE `/api/books/:id`: Remove a book
+  - POST `/api/books/:id`: Remove a book
 - CSV upload and processing to import books into the database
 - Input validation and error handling
 - Basic user authentication 
