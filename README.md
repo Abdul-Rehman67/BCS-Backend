@@ -5,10 +5,10 @@ This is the backend of a full-stack application for managing a personal book col
 ## Features
 
 - RESTful API for managing books
-  - GET `/api/books`: Retrieve all books
-  - GET `/api/books/:id`: Retrieve a specific book
-  - POST `/api/books`: Add a new book or by CSV
-  - POST `/api/books/:id`: Remove a book
+  - GET `/api/book/get-book`: Retrieve all books
+  - POST `/api/book/update-book`: Retrieve a specific book
+  - POST `/api/book/add-book`: Add a new book or by CSV
+  - POST `/api/book/delete-book/:id`: Remove a book
 - CSV upload and processing to import books into the database
 - Input validation and error handling
 - Basic user authentication 
@@ -48,10 +48,10 @@ Each book contains the following fields:
 
 ## API Endpoints
 
-- `GET /api/books` - Retrieve all books
-- `GET /api/books/:id` - Retrieve a book by ID
-- `POST /api/books` - Add a new book
-- `DELETE /api/books/:id` - Delete a book by ID
+   - GET `/api/book/get-book`: Retrieve all books by user
+  - POST `/api/book/update-book`: Update a specific book
+  - POST `/api/book/add-book`: Add a new book or by CSV
+  - POST `/api/book/delete-book/:id`: Remove a book
 
 ## CSV File Import
 
