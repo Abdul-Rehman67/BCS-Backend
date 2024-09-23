@@ -7,7 +7,7 @@ const router = express.Router()
 router.post('/add-book', userChecker, addBookController)
 router.get('/get-book', userChecker, getAllBookController)
 router.post('/update-book', userChecker, updateBookController)
-router.post('/delete-book/:id', userChecker, deleteBookController)
+router.delete('/delete-book/:id', userChecker, deleteBookController)
 
 
 module.exports = router
