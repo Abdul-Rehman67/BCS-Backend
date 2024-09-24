@@ -7,13 +7,13 @@ const addBookController = async (req, res) => {
     console.log(payload)
     let result = await addBooksService(payload,req.email);
     if(result.duplicates.length>0 && result.results.length>0) {
-      return res.status(200).send(response(false , "Book added successfully. Duplicate entries were found and ignored", {}));
+      return res.status(200).send(response(false , `${result.results.length} Book added successfully. Duplicate entries were found and ignored`, {}));
     }
     else if (result.results.length>0) {
-      return res.status(200).send(response(true, 'Book added successfully', {}));
+      return res.status(200).send(response(true, `${result.results.length} Book added successfully`, {}));
     } 
     else if(result.duplicates.length>0) {
-      return res.status(200).send(response(false , "A book(s) with this name already exists in your collection", {}));
+      return res.status(200).send(response(false , "A book(s) with this/these name already exists in your collection", {}));
     }
   }
   catch (e) {
